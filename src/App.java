@@ -14,7 +14,7 @@ public class App {
             return;
         }
     Temporada temporada = serieBuscada.buscarTemporada (5);
-    Episodio episodio = temporada.buscarEpisodio(1);
+    Episodio episodio = temporada.buscarEpisodio(35);
 
     episodio.reproducir();
 

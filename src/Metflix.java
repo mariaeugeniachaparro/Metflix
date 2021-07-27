@@ -52,7 +52,15 @@ public class Metflix {
         episodio = new Episodio ();
         episodio.nombre= "Definitions";
         episodio.numero= 1;
-        temporada.episodios.add (episodio);
+                temporada.episodios.add (episodio);
+
+
+        Websodio ws = new Websodio ();
+        ws.nombre = " nombre websodio en internet";
+        ws.numero= 35;
+        ws.link= " http://miepisodios.com/websodio.avi";
+        temporada.episodios.add (ws);
+
 
         howIMetYM.temporadas. add (temporada);
 
